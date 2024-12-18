@@ -14,6 +14,6 @@ PetiteVue.createApp({
     this.data = obj.results[0];
   },
 
-  zipcode: "66208234",
+  zipcode: "6620842",
   data: false,
 }).mount();
