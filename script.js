@@ -6,7 +6,7 @@ PetiteVue.createApp({
       zipcode: this.zipcode,
     });
 
-    const res = await fetch("http://localhost:8000?" + query, {
+    const res = await fetch("http://apurimuko.deno.dev?" + query, {
       headers: {},
     }); // 仲介プログラムにfetch
     const obj = await res.json();
